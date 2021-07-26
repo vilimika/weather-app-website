@@ -28,7 +28,7 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
   res.render('about', {
-    title: 'abou me',
+    title: 'about me',
     name: 'crated by rockpoop'
   });
 });
